@@ -18,10 +18,11 @@ public class Main {
         Cinderellas.add(new Cinderella("Katya", 24, 38));
 
         Prince prince = new Prince("Vasya", 25, 37);
+        System.out.println(prince);
 
         for (Cinderella cinderella : Cinderellas) {
             if (prince.getShoeSize()==cinderella.getFootSize()){
-                System.out.println(cinderella.toString());
+                System.out.println(cinderella);
             }
         }
     }
